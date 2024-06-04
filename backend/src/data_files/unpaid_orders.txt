@@ -1,0 +1,2 @@
+3 {"table_num":3,"pickup":false,"ordered_list":[{"item_name":"Fish and Chips","amount_ordered":1,"category":"Main","price":13.0}]}
+4 {"table_num":4,"pickup":false,"ordered_list":[{"item_name":"Fish and Chips","amount_ordered":1,"category":"Main","price":13.0}]}
