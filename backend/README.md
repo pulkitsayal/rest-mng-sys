@@ -1,13 +1,10 @@
 # Setup Steps
-- Pre-requisites
-Install Python
-
-- Navigate to the backend folder
+Navigate to the backend folder
 ```sh
 cd ../backend
 ```
 
-- Set up your virtual environment
+Set up your virtual environment
 ```sh
 # Install virtualenv if not already installed
 pip install virtualenv
@@ -25,12 +22,12 @@ source < virtual env name >/bin/activate
 .\< virtual env name >\Scripts\deactivate
 
 ```
-- Install requirements (inside virtual env)
+Install requirements (inside virtual env)
 ```sh
 pip install -r requirements.txt
 ```
 
-- Run the server
+Run the server
 ```sh
 uvicorn main:app --reload
 ```
