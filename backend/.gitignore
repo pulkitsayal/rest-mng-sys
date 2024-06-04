@@ -1,0 +1,11 @@
+# virtual environments
+rms_env
+
+# vscode
+.vscode
+
+# pycache
+__pycache__/
+
+# db is not needed as running the server will create a local version for testing 
+*.db
