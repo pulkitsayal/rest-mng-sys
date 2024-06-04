@@ -10,16 +10,16 @@ Set up and run virtual environment
 pip install virtualenv
 
 # Create the virtual environment
-virtualenv < virtual env name > # e.g., rms_env
+virtualenv <virtual env name> # e.g., rms_env
 
 # Activate the virtual environment (Unix/macOS)
-source < virtual env name >/bin/activate
+source <virtual env name>/bin/activate
 
 # Activate the virtual environment (Windows)
-.\< virtual env name >\Scripts\activate # e.g., rms_env\Scripts\activate
+<virtual env name>\Scripts\activate # e.g., rms_env\Scripts\activate
 
 # Deactivate the virtual environment (Windows)
-.\< virtual env name >\Scripts\deactivate
+deactivate
 
 ```
 Install requirements (inside virtual env)
