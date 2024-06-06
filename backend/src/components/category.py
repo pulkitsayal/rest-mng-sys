@@ -1,8 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy.orm.exc import NoResultFound
-from data.models import Categories
-from data.schemas import Category
+from data import Categories, Category
 from .dependencies import get_db
 
 router = APIRouter()

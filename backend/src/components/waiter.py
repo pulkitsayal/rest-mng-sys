@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy.orm.exc import NoResultFound
-from data.models import OrderedItems
+from data import OrderedItems
 from .dependencies import get_db
 
 router = APIRouter()
