@@ -1,6 +1,5 @@
 from fastapi import FastAPI
-from data.models import Base
-from data.database import engine
+from data import Base, engine
 from components.login import router as login_router
 from components.table import router as table_router
 from components.user import router as user_router

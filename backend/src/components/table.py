@@ -2,7 +2,7 @@ from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from sqlalchemy.orm.exc import NoResultFound
 from sqlalchemy.exc import SQLAlchemyError
-from data.models import Tables
+from data import Tables
 from datetime import datetime, timedelta
 from .dependencies import get_db
 

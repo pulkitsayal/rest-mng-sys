@@ -5,8 +5,7 @@ from sqlalchemy.orm import Session
 from sqlalchemy.orm.exc import NoResultFound
 from sqlalchemy.exc import IntegrityError
 from json import loads
-from data.schemas import Menu, MenuUpdate
-from data.models import MenuItems
+from data import Menu, MenuUpdate, MenuItems
 from .dependencies import get_db
 from pathlib import Path
 
